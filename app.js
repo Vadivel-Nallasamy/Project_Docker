@@ -27,7 +27,7 @@ mongoose
   .catch((err) => {
     console.log(err);
   });
-
+//Comment added for fun
 app.get('/all', StockController.getStock);
 app.post('/', StockController.addStock);
 app.get('/single', StockController.getSingleStock);
